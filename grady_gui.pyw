@@ -373,10 +373,8 @@ if __name__ == "__main__":
     stop_button.pack(side=tk.LEFT, pady=20, padx=30)
 
 
-
-
     status_label = tk.Label(root, text="", fg="#1081d6", bg=bg)
-    status_label.grid(row=7, column=0, columnspan=3, pady=10, sticky="ew")
+    status_label.grid(row=6, column=0, columnspan=1, pady=10, sticky="ew")
 
     output_label = tk.Label(root, justify="left", text="Output:", bg=bg, fg=fg, font=('Helvetica', 10, 'bold'))
     output_label.grid(row=7, column=0, pady=10, padx=10, sticky="ew")
